@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aksharam | Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="top-nav-wrap">
+      <nav class="top-nav">
+        <div class="top-nav-row">
+          <a href="index.html" class="brand" aria-label="Aksharam home">
+            <span class="brand-main">अक्षरम</span>
+            <span class="brand-sub">साहित्य, संवाद, संस्कृति उत्सव</span>
+          </a>
+          <button id="navToggle" class="nav-toggle" type="button">Menu</button>
+          <ul id="navLinks" class="nav-links"></ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <img class="iconnect reveal" src="assets/iconnect_logo_clean.png" alt="iConnect logo" />
+        <p class="presents reveal">Presents</p>
+        <h1 class="hero-title reveal">अक्षरम</h1>
+        <p class="hero-subtitle reveal">साहित्य, संवाद, संस्कृति उत्सव</p>
+        <div class="cta-row reveal">
+          <a class="btn" href="#connect">Register Now <span aria-hidden="true">→</span></a>
+          <a class="btn" href="events.html">View Events <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <div class="farm-strip reveal">
+        <img src="assets/farm_strip.png" alt="" aria-hidden="true" />
+      </div>
+
+      <section id="about" class="section container">
+        <h2 class="section-title reveal">About Aksharam</h2>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            Haryana Cultural Fest is a celebration of tradition, creativity, and community, inspired by the rich cultural roots of Haryana. Blending the essence of rural life with modern expression, the fest brings together music, dance, literature, and art into one vibrant experience.
+            <br /><br />
+            From energetic folk performances and creative showcases to interactive activities, the festival creates a space where talent meets tradition. It is not just about performances, but about experiencing the stories, spirit, and simplicity of Haryana's culture.
+            <br /><br />
+            Designed for students and creators, the fest encourages expression, connection, and cultural pride, making it more than just an event, but a memorable cultural experience.
+          </div>
+          <figure class="about-figure reveal">
+            <img src="assets/about_panel.png" alt="Rural landscape illustration" />
+          </figure>
+        </div>
+        <div id="featureGrid" class="feature-grid"></div>
+      </section>
+
+      <section class="section container">
+        <h2 class="section-title reveal">Chief Guests & Key Dignitaries</h2>
+        <div id="homeGuestsGrid" class="guest-grid"></div>
+        <p class="center reveal">
+          <a class="btn" href="guests.html">All Guests <span aria-hidden="true">→</span></a>
+        </p>
+      </section>
+
+      <section class="section container">
+        <h2 class="section-title reveal">Key Events</h2>
+        <div id="homeEventsGrid" class="event-grid"></div>
+        <p class="center reveal">
+          <a class="btn" href="events.html">View All <span aria-hidden="true">→</span></a>
+        </p>
+      </section>
+
+      <section id="connect" class="section container">
+        <h2 class="section-title reveal">Connect with us</h2>
+        <div class="connect-grid">
+          <article id="reachPanel" class="panel reach-card reveal"></article>
+          <article class="panel contact-form reveal">
+            <h3 class="form-title">Get in Touch</h3>
+            <form id="contactForm">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+              </div>
+              <button class="btn" type="submit">Send Message <span aria-hidden="true">→</span></button>
+              <p id="formFeedback" class="form-feedback"></p>
+            </form>
+          </article>
+        </div>
+      </section>
+
+      <section class="social-wrap container">
+        <h2 class="social-title reveal">Follow us on</h2>
+        <div id="socialList" class="social-list"></div>
+      </section>
+
+      <footer id="siteFooter"></footer>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
