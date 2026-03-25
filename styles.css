@@ -410,11 +410,8 @@ img {
 /* CARD CONTAINER (FULL CARD ROTATES) */
 /* OUTER CARD (NO ROTATION HERE) */
 .event-card {
-
-
   perspective: 1000px;
-  height: 520px;
-
+  aspect-ratio: 0.55 / 1;
   cursor: pointer;
 }
 

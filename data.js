@@ -24,8 +24,8 @@ const siteData = {
     },
   ],
   guestsPreview: [
-    { name: "Sh. Manohar Lal Khattar", role: "Former CM, Haryana",image: "assets/Sh. Manohar Lal Khattar (Former CM, Haryana) .png" },
-    { name: "Sh. Nayab Singh Saini", role: "CM, Haryana",image: "assets/Sh. Nayab Singh Saini (CM, Haryana).jpg" },
+    { name: "Sh. Manohar Lal Khattar", role: "Former CM, Haryana",image: "assets/Rectangle 1-3.png" },
+    { name: "Sh. Nayab Singh Saini", role: "CM, Haryana",image: "assets/Rectangle 2.png" },
     { name: "Smt. Savitri Jindal", role: "Prominent Industrialist/Social Leader",image: "assets/Smt. Savitri Jindal (Prominent Industrialist:Social Leader) .png" },
     { name: "Sh. Anurag Thakur", role: "Prominent Political Leader",image: "assets/Sh. Anurag Thakur (Prominent Political Leader) .png" },
     { name: "Sh. Bhupender Yadav", role: "Union Minister",image: "assets/Sh. Bhupender Yadav (Union Minister) .jpg" },
