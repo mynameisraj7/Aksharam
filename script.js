@@ -158,13 +158,15 @@ function renderGuestPage() {
 function renderSocials() {
   const socialList = document.getElementById("socialList");
 
+  if (!socialList) return; // ✅ STOP if not present
+
   socialList.innerHTML = "";
 
   siteData.contact.socials.forEach((social) => {
     const a = document.createElement("a");
     a.href = social.link;
-    a.target = "_blank";
     a.className = "social-pill";
+    a.target = "_blank";
 
     a.innerHTML = `<i class="${social.icon}"></i>`;
 
