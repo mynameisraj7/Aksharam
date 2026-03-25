@@ -31,20 +31,95 @@ const siteData = {
     { name: "Sh. Bhupender Yadav", role: "Union Minister",image: "assets/Sh. Bhupender Yadav (Union Minister) .jpg" },
     { name: "Sh. Ram Madhav", role: "Prominent Author Leader",image: "assets/Sh. Ram Madhav (Prominent Author:Leader) .jpg" },
   ],
-  events: [
-    { title: "Escape Room", date: "16 February 2026", category: "Tech Challenge", poster: "assets/event_poster.png" },
-    { title: "Kavi Sammelan", date: "17 February 2026", category: "Literature", poster: "assets/event_poster.png" },
-    { title: "Rang-e-Haryana", date: "18 February 2026", category: "Cultural", poster: "assets/event_poster.png" },
-    { title: "Cinema Chaupal", date: "18 February 2026", category: "Cinema", poster: "assets/event_poster.png" },
-    { title: "Media Adda", date: "19 February 2026", category: "Media", poster: "assets/event_poster.png" },
-    { title: "Creative Workshop", date: "19 February 2026", category: "Workshop", poster: "assets/event_poster.png" },
-    { title: "Folk Performance Night", date: "20 February 2026", category: "Cultural", poster: "assets/event_poster.png" },
-    { title: "Idea Sprint", date: "20 February 2026", category: "Innovation", poster: "assets/event_poster.png" },
-    { title: "Open Mic Mehfil", date: "21 February 2026", category: "Literature", poster: "assets/event_poster.png" },
-    { title: "Campus Dialogues", date: "21 February 2026", category: "Public Talk", poster: "assets/event_poster.png" },
-    { title: "Storytelling Circle", date: "22 February 2026", category: "Literature", poster: "assets/event_poster.png" },
-    { title: "Startup Spotlight", date: "22 February 2026", category: "Innovation", poster: "assets/event_poster.png" },
-  ],
+ 
+events: [
+  { 
+    title: "Escape Room", 
+    date: "16 February 2026", 
+    category: "Tech Challenge", 
+    poster: "assets/event_poster.png",
+    description: "Solve puzzles, crack codes, and escape before time runs out."
+  },
+  { 
+    title: "Kavi Sammelan", 
+    date: "17 February 2026", 
+    category: "Literature", 
+    poster: "assets/event_poster.png",
+    description: "An evening of poetry featuring renowned poets and performers."
+  },
+  { 
+    title: "Rang-e-Haryana", 
+    date: "18 February 2026", 
+    category: "Cultural", 
+    poster: "assets/event_poster.png",
+    description: "A vibrant showcase of Haryana's traditional music and dance."
+  },
+  { 
+    title: "Cinema Chaupal", 
+    date: "18 February 2026", 
+    category: "Cinema", 
+    poster: "assets/event_poster.png",
+    description: "Film screenings and discussions with creators and critics."
+  },
+  { 
+    title: "Media Adda", 
+    date: "19 February 2026", 
+    category: "Media", 
+    poster: "assets/event_poster.png",
+    description: "Interactive sessions with journalists and media professionals."
+  },
+  { 
+    title: "Creative Workshop", 
+    date: "19 February 2026", 
+    category: "Workshop", 
+    poster: "assets/event_poster.png",
+    description: "Hands-on sessions to explore creativity and skill-building."
+  },
+  { 
+    title: "Folk Performance Night", 
+    date: "20 February 2026", 
+    category: "Cultural", 
+    poster: "assets/event_poster.png",
+    description: "Live folk performances celebrating local traditions."
+  },
+  { 
+    title: "Idea Sprint", 
+    date: "20 February 2026", 
+    category: "Innovation", 
+    poster: "assets/event_poster.png",
+    description: "Pitch your ideas and innovate under time pressure."
+  },
+  { 
+    title: "Open Mic Mehfil", 
+    date: "21 February 2026", 
+    category: "Literature", 
+    poster: "assets/event_poster.png",
+    description: "Express yourself through poetry, music, or storytelling."
+  },
+  { 
+    title: "Campus Dialogues", 
+    date: "21 February 2026", 
+    category: "Public Talk", 
+    poster: "assets/event_poster.png",
+    description: "Engaging discussions on culture, society, and ideas."
+  },
+  { 
+    title: "Storytelling Circle", 
+    date: "22 February 2026", 
+    category: "Literature", 
+    poster: "assets/event_poster.png",
+    description: "Share and listen to compelling stories in an intimate setting."
+  },
+  { 
+    title: "Startup Spotlight", 
+    date: "22 February 2026", 
+    category: "Innovation", 
+    poster: "assets/event_poster.png",
+    description: "Showcase startups and entrepreneurial journeys."
+  }
+],
+
+
   guestCategories: [
     {
       title: "Chief Guests & Key Dignitaries",

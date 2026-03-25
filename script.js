@@ -37,12 +37,25 @@ function createGuestCard(person) {
 
 function createEventCard(event) {
   return `
-    <article class="event-card reveal" data-category="${event.category}">
-      <img class="event-poster" src="${event.poster}" alt="${event.title}">
-      <div class="event-body">
-        <h3 class="event-title">${event.title}</h3>
-        <p class="event-date">${event.date}</p>
-        <span class="event-category">${event.category}</span>
+    <article class="event-card reveal" onclick="this.classList.toggle('is-flipped')">
+      <div class="event-card-inner">
+        
+        <!-- FRONT -->
+        <div class="event-card-front">
+          <img class="event-poster" src="${event.poster}" alt="${event.title}">
+          <div class="event-body">
+            <h3 class="event-title">${event.title}</h3>
+            <p class="event-date">${event.date}</p>
+            <span class="event-category">${event.category}</span>
+          </div>
+        </div>
+
+        <!-- BACK -->
+        <div class="event-card-back">
+          <h3>${event.title}</h3>
+          <p>${event.description || "No description available."}</p>
+        </div>
+
       </div>
     </article>
   `;
