@@ -156,12 +156,20 @@ function renderGuestPage() {
 }
 
 function renderSocials() {
-  const socialList = byId("socialList");
-  if (!socialList) return;
+  const socialList = document.getElementById("socialList");
 
-  socialList.innerHTML = siteData.contact.socials
-    .map((social) => `<a class="social-pill reveal" href="#" aria-label="${social}">${social.slice(0, 2).toUpperCase()}</a>`)
-    .join("");
+  socialList.innerHTML = "";
+
+  siteData.contact.socials.forEach((social) => {
+    const a = document.createElement("a");
+    a.href = social.link;
+    a.target = "_blank";
+    a.className = "social-pill";
+
+    a.innerHTML = `<i class="${social.icon}"></i>`;
+
+    socialList.appendChild(a);
+  });
 }
 
 function renderReachPanel() {

@@ -26,10 +26,10 @@ const siteData = {
   guestsPreview: [
     { name: "Sh. Manohar Lal Khattar", role: "Former CM, Haryana",image: "assets/Rectangle 1-3.png" },
     { name: "Sh. Nayab Singh Saini", role: "CM, Haryana",image: "assets/Rectangle 2.png" },
-    { name: "Smt. Savitri Jindal", role: "Prominent Industrialist/Social Leader",image: "assets/Smt. Savitri Jindal (Prominent Industrialist:Social Leader) .png" },
-    { name: "Sh. Anurag Thakur", role: "Prominent Political Leader",image: "assets/Sh. Anurag Thakur (Prominent Political Leader) .png" },
-    { name: "Sh. Bhupender Yadav", role: "Union Minister",image: "assets/Sh. Bhupender Yadav (Union Minister) .jpg" },
-    { name: "Sh. Ram Madhav", role: "Prominent Author Leader",image: "assets/Sh. Ram Madhav (Prominent Author:Leader) .jpg" },
+    { name: "Smt. Savitri Jindal", role: "Prominent Industrialist/Social Leader",image: "assets/Rectangle 3.png" },
+    { name: "Sh. Anurag Thakur", role: "Prominent Political Leader",image: "assets/Rectangle 4.png" },
+    { name: "Sh. Bhupender Yadav", role: "Union Minister",image: "assets/Rectangle 5.png" },
+    { name: "Sh. Ram Madhav", role: "Prominent Author Leader",image: "assets/Rectangle 6.png" },
   ],
  
 events: [
@@ -219,6 +219,12 @@ events: [
     accommodation: ["+91 9012345678 (Yuvansh)", "+91 9012345678 (Naina)"],
     eventQueries: ["+91 9012345678 (Vansh)", "+91 9012345678 (Naina)"],
     mail: "iconnectgjust@gmail.com",
-    socials: ["Instagram", "X", "WhatsApp", "LinkedIn", "Facebook"],
+   socials: [
+    { name: "Instagram", icon: "bx bxl-instagram", link: "#" },
+    { name: "X", icon: "bx bxl-twitter", link: "#" },
+    { name: "WhatsApp", icon: "bx bxl-whatsapp", link: "#" },
+    { name: "LinkedIn", icon: "bx bxl-linkedin", link: "#" },
+    { name: "Facebook", icon: "bx bxl-youtube", link: "#" },
+  ]
   },
 };

@@ -161,7 +161,7 @@ img {
   aspect-ratio: 1 / 1;
   object-fit: contain;
   border-radius: 18px;
-  padding: 8px;
+  padding: 2px;
 }
 
 .partner-gju {
@@ -170,6 +170,20 @@ img {
 
 .partner-jild {
   border-radius: 50%;
+}
+
+.partner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner-name {
+  margin-top: 0px;
+  font-family: "Khand", sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
+  color: #6f7c35;
+  font-weight: 600;
 }
 
 .partner-x {
@@ -373,22 +387,20 @@ img {
   margin-inline: auto;
   width: min(190px, 100%);
   aspect-ratio: 1 / 1;
-  border: 4px solid var(--stroke);
   border-radius: 0 54px 0 54px;
-  background: rgba(238, 216, 188, 0.55);
 }
 
 .guest-name {
   margin: 10px 0 4px;
   font-family: "Khand", sans-serif;
-  font-size: clamp(1.35rem, 1.8vw, 2.1rem);
+  font-size: clamp(1.25rem, 1.7vw, 2.0rem);
   line-height: 1.08;
   color: #946247;
 }
 
 .guest-role {
   margin: 0;
-  font-size: clamp(0.95rem, 1vw, 1.18rem);
+  font-size: clamp(0.85rem, 0.85vw, 1.09rem);
   color: var(--ink-soft);
 }
 
@@ -399,8 +411,8 @@ img {
 
 .event-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
 }
 
 
@@ -411,7 +423,6 @@ img {
 /* OUTER CARD (NO ROTATION HERE) */
 .event-card {
   perspective: 1000px;
-  aspect-ratio: 0.55 / 1;
   cursor: pointer;
 }
 
@@ -419,7 +430,7 @@ img {
 .event-card-inner {
   position: relative;
   width: 100%;
-  height: 100%;
+  min-height: 430px;
   border-radius: 0 40px 0 40px;
   transform-style: preserve-3d;
   transition: transform 0.6s;
@@ -434,6 +445,9 @@ img {
 /* BOTH SIDES */
 .event-card-front,
 .event-card-back {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   position: absolute;
   inset: 0;
 
@@ -476,7 +490,8 @@ img {
 /* KEEP YOUR ORIGINAL DESIGN */
 .event-poster {
   width: 100%;
-  aspect-ratio: 0.7 / 1;
+  height:310px ;
+  /* aspect-ratio: 0.7 / 1; */
   object-fit: cover;
 }
 
@@ -672,7 +687,7 @@ img {
   border: 2px solid #445121;
   display: grid;
   place-items: center;
-  font-size: 0.72rem;
+  font-size: 1.3rem;
   font-weight: 800;
   color: #445121;
   background: rgba(255, 255, 255, 0.33);
