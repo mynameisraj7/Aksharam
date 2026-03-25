@@ -26,7 +26,9 @@ function initMobileNav() {
 function createGuestCard(person) {
   return `
     <article class="guest-card reveal">
-      <div class="guest-avatar" aria-hidden="true"></div>
+      <div class="guest-avatar" aria-hidden="true">
+           <img src="${person.image}" alt="${person.name}">
+      </div>
       <h3 class="guest-name">${person.name}</h3>
       <p class="guest-role">${person.role}</p>
     </article>

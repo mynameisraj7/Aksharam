@@ -8,27 +8,28 @@ const siteData = {
   ],
   features: [
     {
-      title: "Tradition",
+      title: "परम्परा",
       emoji: "🌿",
       text: "Celebrating the roots and cultural heritage of Haryana.",
     },
     {
-      title: "Creativity",
+      title: "रचनात्मकता",
       emoji: "🎭",
       text: "A platform for art, music, dance, and bold expression.",
     },
     {
-      title: "Community",
+      title: "समुदाय",
       emoji: "🤝",
       text: "Bringing people together through shared experiences.",
     },
   ],
   guestsPreview: [
-    { name: "Sh. Manohar Lal Khattar", role: "Former CM, Haryana" },
-    { name: "Sh. Nayab Singh Saini", role: "CM, Haryana" },
-    { name: "Smt. Savitri Jindal", role: "Prominent Industrialist/Social Leader" },
-    { name: "Sh. Anurag Thakur", role: "Prominent Political Leader" },
-    { name: "Sh. Bhupender Yadav", role: "Union Minister" },
+    { name: "Sh. Manohar Lal Khattar", role: "Former CM, Haryana",image: "assets/Sh. Manohar Lal Khattar (Former CM, Haryana) .png" },
+    { name: "Sh. Nayab Singh Saini", role: "CM, Haryana",image: "assets/Sh. Nayab Singh Saini (CM, Haryana).jpg" },
+    { name: "Smt. Savitri Jindal", role: "Prominent Industrialist/Social Leader",image: "assets/Smt. Savitri Jindal (Prominent Industrialist:Social Leader) .png" },
+    { name: "Sh. Anurag Thakur", role: "Prominent Political Leader",image: "assets/Sh. Anurag Thakur (Prominent Political Leader) .png" },
+    { name: "Sh. Bhupender Yadav", role: "Union Minister",image: "assets/Sh. Bhupender Yadav (Union Minister) .jpg" },
+    { name: "Sh. Ram Madhav", role: "Prominent Author Leader",image: "assets/Sh. Ram Madhav (Prominent Author:Leader) .jpg" },
   ],
   events: [
     { title: "Escape Room", date: "16 February 2026", category: "Tech Challenge", poster: "assets/event_poster.png" },
