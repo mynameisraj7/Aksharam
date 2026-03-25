@@ -156,7 +156,7 @@ function renderReachPanel() {
     <h3 class="form-title">Reach us at</h3>
     <p>${siteData.contact.address.join("<br>")}</p>
     <p><strong>Mail:</strong> ${siteData.contact.mail}</p>
-    <p>Team iConnect under PDUIIC is conducting the fest and is dedicated to help you with your queries.</p>
+    <p>Team Aksharam is conducting the fest and is dedicated to help you with your queries.</p>
   `;
 }
 
@@ -168,10 +168,10 @@ function renderFooter() {
     <div class="footer-top">
       <section>
         <div class="footer-branding">
-          <img class="mini-logo" src="assets/iconnect_logo_clean.png" alt="iConnect logo">
+          <img class="mini-logo" src="assets/aksharam_logo.png" alt="Aksharam logo">
         </div>
         <p class="footer-note">
-          E-Summit GJUS&T Hisar is Haryana's largest entrepreneurial fest, organized by Team iConnect under PDUIIC to inspire and empower future leaders and prosperous nation growth.
+          Aksharam is a cultural festival celebrating literature, dialogue, and heritage through curated events, performances, and community participation.
         </p>
         <h3>Address</h3>
         <p class="footer-note">${siteData.contact.address.join("<br>")}</p>
@@ -195,8 +195,8 @@ function renderFooter() {
       </section>
     </div>
     <div class="footer-bottom">
-      <span>Build with ❤ by Team iConnect</span>
-      <span>© Team iConnect, PDUIIC, GJUS&T, Hisar. All Rights Reserved</span>
+      <span>Build with ❤ by Team Aksharam</span>
+      <span>© Team Aksharam, GJUS&T, Hisar. All Rights Reserved</span>
     </div>
   `;
 }

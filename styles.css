@@ -148,10 +148,47 @@ img {
   text-align: center;
 }
 
-.iconnect {
+.hero-partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
   margin: 0 auto;
-  max-width: 520px;
-  filter: drop-shadow(0 2px 6px rgba(54, 42, 29, 0.15));
+}
+
+.partner-logo {
+  width: clamp(90px, 14vw, 180px);
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.35);
+  border: 2px solid rgba(126, 98, 64, 0.4);
+  padding: 8px;
+}
+
+.partner-gju {
+  border-radius: 16px;
+}
+
+.partner-jild {
+  border-radius: 50%;
+}
+
+.partner-x {
+  font-family: "Teko", sans-serif;
+  font-size: clamp(2.2rem, 4.5vw, 4.2rem);
+  line-height: 1;
+  color: #825536;
+}
+
+.hero-brand-logo {
+  width: min(520px, 95%);
+  margin: 4px auto 0;
+  border-radius: 18px;
+  background: #e4e4e4;
+  border: 2px solid rgba(126, 98, 64, 0.3);
+  padding: 10px;
+  box-shadow: 0 8px 20px rgba(54, 42, 29, 0.14);
 }
 
 .presents {
@@ -176,6 +213,41 @@ img {
   font-family: "Khand", sans-serif;
   font-size: clamp(2rem, 4vw, 4rem);
   color: #8a5938;
+}
+
+.sponsor-strip {
+  width: min(1000px, 96%);
+  margin: 20px auto 0;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 2px solid rgba(126, 98, 64, 0.42);
+  background: rgba(255, 255, 255, 0.32);
+}
+
+.sponsor-title {
+  margin: 0 0 10px;
+  font-family: "Khand", sans-serif;
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  color: #6b7633;
+}
+
+.sponsor-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.sponsor-logos img {
+  width: auto;
+  max-width: 180px;
+  height: clamp(56px, 7vw, 96px);
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.56);
+  padding: 6px 10px;
+  border: 1px solid rgba(126, 98, 64, 0.35);
 }
 
 .cta-row {
@@ -332,8 +404,8 @@ img {
 
 .event-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 16px;
 }
 
 .event-card {
@@ -352,19 +424,19 @@ img {
 
 .event-body {
   text-align: center;
-  padding: 14px 10px 18px;
+  padding: 10px 8px 12px;
 }
 
 .event-title {
   margin: 0;
   font-family: "Khand", sans-serif;
-  font-size: clamp(1.6rem, 1.9vw, 2.4rem);
+  font-size: clamp(1.2rem, 1.5vw, 1.7rem);
   line-height: 1;
 }
 
 .event-date {
   margin: 4px 0 0;
-  font-size: clamp(0.95rem, 1vw, 1.2rem);
+  font-size: clamp(0.78rem, 0.86vw, 0.98rem);
   color: #3a4126;
 }
 
@@ -529,7 +601,7 @@ img {
 }
 
 .mini-logo {
-  width: min(260px, 100%);
+  width: min(320px, 100%);
 }
 
 .footer-note {
@@ -633,6 +705,10 @@ img {
     padding-top: 54px;
   }
 
+  .sponsor-strip {
+    width: 100%;
+  }
+
   .footer-bottom {
     flex-direction: column;
   }
@@ -653,14 +729,60 @@ img {
   }
 
   .event-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
   }
 
   .guest-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .btn {
+  .cta-row .btn {
     width: 100%;
+  }
+
+  .partner-logo {
+    width: clamp(74px, 24vw, 100px);
+  }
+
+  .hero-brand-logo {
+    width: min(500px, 100%);
+  }
+
+  .sponsor-logos img {
+    height: 54px;
+    max-width: 116px;
+  }
+
+  .event-card {
+    border-width: 3px;
+    border-radius: 0 24px 0 24px;
+  }
+
+  .event-title {
+    font-size: 1.04rem;
+  }
+
+  .event-date {
+    font-size: 0.72rem;
+  }
+
+  .event-category {
+    font-size: 0.62rem;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 390px) {
+  .event-grid {
+    gap: 10px;
+  }
+
+  .event-body {
+    padding: 8px 6px 10px;
+  }
+
+  .event-title {
+    font-size: 0.95rem;
   }
 }
