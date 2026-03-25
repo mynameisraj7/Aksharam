@@ -157,12 +157,10 @@ img {
 }
 
 .partner-logo {
-  width: clamp(90px, 14vw, 180px);
+  width: clamp(45px, 7vw, 110px);
   aspect-ratio: 1 / 1;
   object-fit: contain;
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.35);
-  border: 2px solid rgba(126, 98, 64, 0.4);
   padding: 8px;
 }
 
@@ -182,13 +180,10 @@ img {
 }
 
 .hero-brand-logo {
-  width: min(520px, 95%);
+  width: min(300px, 80%);
   margin: 4px auto 0;
   border-radius: 18px;
-  background: #e4e4e4;
-  border: 2px solid rgba(126, 98, 64, 0.3);
   padding: 10px;
-  box-shadow: 0 8px 20px rgba(54, 42, 29, 0.14);
 }
 
 .presents {
