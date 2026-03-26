@@ -10,17 +10,17 @@ const siteData = {
     {
       title: "परम्परा",
       emoji: "🌿",
-      text: "Celebrating the roots and cultural heritage of Haryana.",
+      text: "परम्परा - हरियाणा की जड़ों और सांस्कृतिक विरासत का उत्सव मनाते हुए।",
     },
     {
       title: "रचनात्मकता",
       emoji: "🎭",
-      text: "A platform for art, music, dance, and bold expression.",
+      text: "रचनात्मकता - कला, संगीत, नृत्य और सशक्त अभिव्यक्ति का एक मंच।",
     },
     {
       title: "समुदाय",
       emoji: "🤝",
-      text: "Bringing people together through shared experiences.",
+      text: "समुदाय - साझा अनुभवों के माध्यम से लोगों को एक साथ जोड़ते हुए।",
     },
   ],
   guestsPreview: [
@@ -37,84 +37,84 @@ events: [
     title: "Escape Room", 
     date: "16 February 2026", 
     category: "Tech Challenge", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Solve puzzles, crack codes, and escape before time runs out."
   },
   { 
     title: "Kavi Sammelan", 
     date: "17 February 2026", 
     category: "Literature", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "An evening of poetry featuring renowned poets and performers."
   },
   { 
     title: "Rang-e-Haryana", 
     date: "18 February 2026", 
     category: "Cultural", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "A vibrant showcase of Haryana's traditional music and dance."
   },
   { 
     title: "Cinema Chaupal", 
     date: "18 February 2026", 
     category: "Cinema", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Film screenings and discussions with creators and critics."
   },
   { 
     title: "Media Adda", 
     date: "19 February 2026", 
     category: "Media", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Interactive sessions with journalists and media professionals."
   },
   { 
     title: "Creative Workshop", 
     date: "19 February 2026", 
     category: "Workshop", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Hands-on sessions to explore creativity and skill-building."
   },
   { 
     title: "Folk Performance Night", 
     date: "20 February 2026", 
     category: "Cultural", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Live folk performances celebrating local traditions."
   },
   { 
     title: "Idea Sprint", 
     date: "20 February 2026", 
     category: "Innovation", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Pitch your ideas and innovate under time pressure."
   },
   { 
     title: "Open Mic Mehfil", 
     date: "21 February 2026", 
     category: "Literature", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Express yourself through poetry, music, or storytelling."
   },
   { 
     title: "Campus Dialogues", 
     date: "21 February 2026", 
     category: "Public Talk", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Engaging discussions on culture, society, and ideas."
   },
   { 
     title: "Storytelling Circle", 
     date: "22 February 2026", 
     category: "Literature", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Share and listen to compelling stories in an intimate setting."
   },
   { 
     title: "Startup Spotlight", 
     date: "22 February 2026", 
     category: "Innovation", 
-    poster: "assets/event_poster.png",
+    poster: "assets/website Teaser 1.png",
     description: "Showcase startups and entrepreneurial journeys."
   }
 ],
@@ -223,11 +223,11 @@ events: [
     eventQueries: ["+91 9012345678 (Vansh)", "+91 9012345678 (Naina)"],
     mail: "iconnectgjust@gmail.com",
    socials: [
-    { name: "Instagram", icon: "bx bxl-instagram", link: "#" },
-    { name: "X", icon: "bx bxl-twitter", link: "#" },
-    { name: "WhatsApp", icon: "bx bxl-whatsapp", link: "#" },
-    { name: "LinkedIn", icon: "bx bxl-linkedin", link: "#" },
-    { name: "Facebook", icon: "bx bxl-youtube", link: "#" },
+    { name: "Instagram", icon: "bx bxl-instagram", link: "https://www.instagram.com/iconnectgjust/" },
+    { name: "X", icon: "bx bxl-twitter", link: "https://x.com/iconnectgjust" },
+    { name: "WhatsApp", icon: "bx bxl-whatsapp", link: "https://www.whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h" },
+    { name: "LinkedIn", icon: "bx bxl-linkedin", link: "https://www.linkedin.com/company/iconnect-gjust/" },
+    { name: "Facebook", icon: "bx bxl-youtube", link: "https://www.youtube.com/@iConnectGJUST" },
   ]
   },
 };

@@ -374,9 +374,8 @@ img {
 }
 
 .guest-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 26px;
 }
 
@@ -472,16 +471,23 @@ img {
   transform: rotateY(180deg);
 
   border-radius: 40px 0 40px 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 
-  padding: 16px;
   text-align: center;
 }
+.event-card-back h3{
+  padding: 0;
+  margin-bottom: 0;
+}
 
-
+.event-card-back p{
+  padding: 0;
+  margin: 8px;
+  font-size: 0.9rem;
+}
 
 
 
