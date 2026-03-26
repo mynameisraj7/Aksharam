@@ -34,203 +34,203 @@ const siteData = {
  
 events: [
   { 
-    title: "Exhibition Inauguration", 
+    title: "प्रदर्शनी उद्घाटन", 
     date: "April 3, 2026", 
     category: "03:00 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Opening of exhibition"
   },
   { 
-    title: "Film Screening: Anand Math", 
+    title: "फिल्म: आनंद मठ", 
     date: "April 3, 2026", 
     category: "03:30 PM onwards", 
     poster: "assets/website Teaser 1.png",
     description: "Film screening"
   },
   { 
-    title: "Kavi Sammelan", 
+    title: "कवि सम्मेलन", 
     date: "April 3, 2026", 
     category: "06:00 PM – 07:00 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Poetry symposium"
   },
   { 
-    title: "Kahe Kabira (Bhajan Clubbing)", 
+    title: "कहे कबीरा (भजन क्लबिंग)", 
     date: "April 3, 2026", 
     category: "07:00 PM – 08:00 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Musical performance"
   },
   { 
-    title: "Musical Night (Supwa Band)", 
+    title: "सुपवा बैंड प्रस्तुति", 
     date: "April 3, 2026", 
     category: "08:00 PM – 10:00 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Live band performance"
   },
   { 
-    title: "Inaugural Session", 
+    title: "उद्घाटन सत्र", 
     date: "April 4, 2026", 
     category: "10:00 AM – 11:00 AM", 
     poster: "assets/website Teaser 1.png",
     description: "Opening ceremony"
   },
   { 
-    title: "Media: Virtual vs Actual Narrative", 
+    title: "मीडिया: वर्चुअल बनाम वास्तविक नैरेटिव", 
     date: "April 4, 2026", 
     category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Panel discussion"
   },
   { 
-    title: "Demography Change & National Security", 
+    title: "डेमोग्राफी परिवर्तन और राष्ट्रीय सुरक्षा", 
     date: "April 4, 2026", 
     category: "12:15 PM – 01:30 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Discussion"
   },
   { 
-    title: "Cinema & Ideology: Celebrity Interaction", 
+    title: "सिनेमा और विचारधारा", 
     date: "April 4, 2026", 
     category: "02:00 PM – 03:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Celebrity talk"
   },
   { 
-    title: "Partition of India: Pain & Lessons", 
+    title: "भारत विभाजन: पीड़ा और पाठ", 
     date: "April 4, 2026", 
     category: "03:15 PM – 04:30 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Engaging discussions on culture, society, and ideas."
   },
   { 
-    title: "Cultural Program", 
+    title: "सांस्कृतिक कार्यक्रम", 
     date: "April 4, 2026", 
     category: "06:00 PM – 10:00 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Evening cultural events"
   },
   { 
-    title: "RSS: 100 Years of Dedication & Service", 
+    title: "राष्ट्रीय स्वयंसेवक संघ: 100 वर्ष", 
     date: "April 5, 2026", 
     category: "10:00 AM – 11:45 AM", 
     poster: "assets/website Teaser 1.png",
     description: "Talk + film"
   },
   { 
-    title: "World Heading Toward War", 
+    title: "विश्व युद्ध की ओर दुनिया", 
     date: "April 5, 2026", 
     category: "11:45 AM – 01:30 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Global discussion"
   },
   { 
-    title: "Climate Change: Destruction vs Development", 
+    title: "जलवायु परिवर्तन: विनाश बनाम विकास", 
     date: "April 5, 2026", 
     category: "02:00 PM – 03:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Panel discussion"
   },
   { 
-    title: "Gen Z Dialogue: Passion & Dreams", 
+    title: "जेन जेड संवाद: जोश और सपने", 
     date: "April 5, 2026", 
     category: "03:15 PM – 04:30 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Youth panel"
   },
   { 
-    title: "Constitution, Voting, and Politics", 
+    title: "संविधान, मतदान और राजनीति", 
     date: "April 5, 2026", 
     category: "04:30 PM – 05:45 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Political discussion"
   },
   { 
-    title: "Valedictory Session", 
+    title: "समापन सत्र", 
     date: "April 5, 2026", 
     category: "06:00 PM – 07:00 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Closing ceremony"
   },
   { 
-    title: "Cultural Program", 
+    title: "सांस्कृतिक कार्यक्रम", 
     date: "April 5, 2026", 
     category: "07:00 PM – 10:00 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Evening cultural events"
   },
   { 
-    title: "Poetry Workshop: Dil To Poet Hai Ji...", 
+    title: "कविता कार्यशाला: दिल तो Poet है जी", 
     date: "April 4, 2026", 
     category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Poetry workshop"
   },
   { 
-    title: "Storytelling Workshop: Kahani Abhi Baaki Hai Mere Dost...", 
+    title: "कहानी कार्यशाला: कहानी अभी बाकी है मेरे दोस्त", 
     date: "April 4, 2026", 
     category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Storytelling workshop"
   },
   { 
-    title: "AI, Writing, and Creativity", 
+    title: "AI, लेखन और रचनात्मकता", 
     date: "April 4, 2026", 
     category: "02:00 PM – 03:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Creative discussion"
   },
   { 
-    title: "Film Screening: Savarkar", 
+    title: "फिल्म: सावरकर", 
     date: "April 4, 2026", 
     category: "03:30 PM onwards", 
     poster: "assets/website Teaser 1.png",
     description: "Film screening"
   },
   { 
-    title: "Screenplay Writing Workshop", 
+    title: "फिल्म पटकथा कार्यशाला", 
     date: "April 5, 2026", 
     category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Screenwriting workshop"
   },
   { 
-    title: "Travel Writing Workshop", 
+    title: "यात्रा लेखन कार्यशाला", 
     date: "April 5, 2026", 
     category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Travel writing"
   },
   { 
-    title: "Book Writing Workshop", 
+    title: "किताब लेखन कार्यशाला", 
     date: "April 5, 2026", 
     category: "02:00 PM – 03:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Book writing"
   },
   { 
-    title: "Film Screening: Shatak", 
+    title: "फिल्म: शतक", 
     date: "April 5, 2026", 
     category: "03:30 PM onwards", 
     poster: "assets/website Teaser 1.png",
     description: "Film screening"
   },
   { 
-    title: "Book Launch and Discussion", 
+    title: "पुस्तक विमोचन और परिचर्चा", 
     date: "April 4, 2026", 
     category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Book event"
   },
   { 
-    title: "Contribution of Haryana to Literature and Journalism", 
+    title: "हरियाणा का साहित्य और पत्रकारिता में योगदान", 
     date: "April 4, 2026", 
     category: "02:00 PM – 03:15 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Discussion"
   },
   { 
-    title: "Haryanvi Song & Music Trends", 
+    title: "हरियाणवी गीत और संगीत", 
     date: "April 5, 2026", 
     category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
