@@ -25,7 +25,9 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: "Manrope", sans-serif;
-  background: var(--bg);
+   background-image: url("assets/page_texture.png");
+  background-repeat: repeat; 
+  background-size: contain;
   overflow-x: hidden;
 }
 
@@ -74,7 +76,8 @@ img {
   width: min(1420px, 94%);
   margin: 22px auto 0;
   border: 3px solid var(--stroke);
-  border-radius: 28px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
   background: rgba(239, 223, 199, 0.95);
   backdrop-filter: blur(6px);
   box-shadow: 0 12px 24px rgba(54, 42, 29, 0.12);
@@ -85,7 +88,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 14px 24px;
+  padding: 10px 34px;
 }
 
 .brand {
@@ -133,7 +136,7 @@ img {
   font-size: clamp(1.3rem, 2vw, 2rem);
   font-weight: 600;
   color: #5f6b2e;
-  padding: 8px 10px;
+  padding: 0px 10px;
 }
 .nav-link::after {
   content: "";
@@ -173,7 +176,7 @@ img {
 }
 
 .partner-logo {
-  width: clamp(45px, 7vw, 110px);
+  width: clamp(40px, 7vw, 110px);
   aspect-ratio: 1 / 1;
   object-fit: contain;
   border-radius: 18px;
@@ -213,7 +216,6 @@ img {
   width: min(300px, 80%);
   margin: 4px auto 0;
   border-radius: 18px;
-  padding: 10px;
 }
 
 .presents {
@@ -499,6 +501,9 @@ img {
 .event-card-back h3{
   padding: 0;
   margin-bottom: 0;
+  font-family: "Khand", sans-serif;
+  font-size: clamp(1.2rem, 1.5vw, 1.7rem);
+  line-height: 1;
 }
 
 .event-card-back p{
@@ -902,7 +907,7 @@ text-align: center;
   }
 
   .hero-brand-logo {
-    width: min(500px, 100%);
+    width: min(390px, 80%);
   }
   .sponsor-logos img {
     height: 54px;

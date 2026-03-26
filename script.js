@@ -220,8 +220,8 @@ function renderFooter() {
       </section>
     </div>
     <div class="footer-bottom">
-      <span>Build with ❤ by Team Aksharam</span>
-      <span>© Team Aksharam, GJUS&T, Hisar. All Rights Reserved</span>
+      <span>Build with ❤ by Team iConnect</span>
+      <span>© Team iConnect, GJUS&T, Hisar. All Rights Reserved</span>
     </div>
   `;
 }

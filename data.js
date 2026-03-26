@@ -62,60 +62,179 @@ events: [
     description: "Musical performance"
   },
   { 
-    title: "Media Adda", 
-    date: "19 February 2026", 
-    category: "Media", 
+    title: "Musical Night (Supwa Band)", 
+    date: "April 3, 2026", 
+    category: "08:00 PM – 10:00 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "Interactive sessions with journalists and media professionals."
+    description: "Live band performance"
   },
   { 
-    title: "Creative Workshop", 
-    date: "19 February 2026", 
-    category: "Workshop", 
+    title: "Inaugural Session", 
+    date: "April 4, 2026", 
+    category: "10:00 AM – 11:00 AM", 
     poster: "assets/website Teaser 1.png",
-    description: "Hands-on sessions to explore creativity and skill-building."
+    description: "Opening ceremony"
   },
   { 
-    title: "Folk Performance Night", 
-    date: "20 February 2026", 
-    category: "Cultural", 
+    title: "Media: Virtual vs Actual Narrative", 
+    date: "April 4, 2026", 
+    category: "11:00 AM – 12:15 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "Live folk performances celebrating local traditions."
+    description: "Panel discussion"
   },
   { 
-    title: "Idea Sprint", 
-    date: "20 February 2026", 
-    category: "Innovation", 
+    title: "Demography Change & National Security", 
+    date: "April 4, 2026", 
+    category: "12:15 PM – 01:30 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "Pitch your ideas and innovate under time pressure."
+    description: "Discussion"
   },
   { 
-    title: "Open Mic Mehfil", 
-    date: "21 February 2026", 
-    category: "Literature", 
+    title: "Cinema & Ideology: Celebrity Interaction", 
+    date: "April 4, 2026", 
+    category: "02:00 PM – 03:15 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "Express yourself through poetry, music, or storytelling."
+    description: "Celebrity talk"
   },
   { 
-    title: "Campus Dialogues", 
-    date: "21 February 2026", 
-    category: "Public Talk", 
+    title: "Partition of India: Pain & Lessons", 
+    date: "April 4, 2026", 
+    category: "03:15 PM – 04:30 PM", 
     poster: "assets/website Teaser 1.png",
     description: "Engaging discussions on culture, society, and ideas."
   },
   { 
-    title: "Storytelling Circle", 
-    date: "22 February 2026", 
-    category: "Literature", 
+    title: "Cultural Program", 
+    date: "April 4, 2026", 
+    category: "06:00 PM – 10:00 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "Share and listen to compelling stories in an intimate setting."
+    description: "Evening cultural events"
   },
   { 
-    title: "Startup Spotlight", 
-    date: "22 February 2026", 
-    category: "Innovation", 
+    title: "RSS: 100 Years of Dedication & Service", 
+    date: "April 5, 2026", 
+    category: "10:00 AM – 11:45 AM", 
     poster: "assets/website Teaser 1.png",
-    description: "Showcase startups and entrepreneurial journeys."
+    description: "Talk + film"
+  },
+  { 
+    title: "World Heading Toward War", 
+    date: "April 5, 2026", 
+    category: "11:45 AM – 01:30 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Global discussion"
+  },
+  { 
+    title: "Climate Change: Destruction vs Development", 
+    date: "April 5, 2026", 
+    category: "02:00 PM – 03:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Panel discussion"
+  },
+  { 
+    title: "Gen Z Dialogue: Passion & Dreams", 
+    date: "April 5, 2026", 
+    category: "03:15 PM – 04:30 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Youth panel"
+  },
+  { 
+    title: "Constitution, Voting, and Politics", 
+    date: "April 5, 2026", 
+    category: "04:30 PM – 05:45 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Political discussion"
+  },
+  { 
+    title: "Valedictory Session", 
+    date: "April 5, 2026", 
+    category: "06:00 PM – 07:00 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Closing ceremony"
+  },
+  { 
+    title: "Cultural Program", 
+    date: "April 5, 2026", 
+    category: "07:00 PM – 10:00 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Evening cultural events"
+  },
+  { 
+    title: "Poetry Workshop: Dil To Poet Hai Ji...", 
+    date: "April 4, 2026", 
+    category: "11:00 AM – 12:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Poetry workshop"
+  },
+  { 
+    title: "Storytelling Workshop: Kahani Abhi Baaki Hai Mere Dost...", 
+    date: "April 4, 2026", 
+    category: "11:00 AM – 12:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Storytelling workshop"
+  },
+  { 
+    title: "AI, Writing, and Creativity", 
+    date: "April 4, 2026", 
+    category: "02:00 PM – 03:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Creative discussion"
+  },
+  { 
+    title: "Film Screening: Savarkar", 
+    date: "April 4, 2026", 
+    category: "03:30 PM onwards", 
+    poster: "assets/website Teaser 1.png",
+    description: "Film screening"
+  },
+  { 
+    title: "Screenplay Writing Workshop", 
+    date: "April 5, 2026", 
+    category: "11:00 AM – 12:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Screenwriting workshop"
+  },
+  { 
+    title: "Travel Writing Workshop", 
+    date: "April 5, 2026", 
+    category: "11:00 AM – 12:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Travel writing"
+  },
+  { 
+    title: "Book Writing Workshop", 
+    date: "April 5, 2026", 
+    category: "02:00 PM – 03:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Book writing"
+  },
+  { 
+    title: "Film Screening: Shatak", 
+    date: "April 5, 2026", 
+    category: "03:30 PM onwards", 
+    poster: "assets/website Teaser 1.png",
+    description: "Film screening"
+  },
+  { 
+    title: "Book Launch and Discussion", 
+    date: "April 4, 2026", 
+    category: "11:00 AM – 12:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Book event"
+  },
+  { 
+    title: "Contribution of Haryana to Literature and Journalism", 
+    date: "April 4, 2026", 
+    category: "02:00 PM – 03:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Discussion"
+  },
+  { 
+    title: "Haryanvi Song & Music Trends", 
+    date: "April 5, 2026", 
+    category: "11:00 AM – 12:15 PM", 
+    poster: "assets/website Teaser 1.png",
+    description: "Music discussion"
   }
 ],
 
