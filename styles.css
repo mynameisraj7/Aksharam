@@ -128,13 +128,29 @@ img {
 }
 
 .nav-link {
+  position: relative;
   font-family: "Khand", sans-serif;
   font-size: clamp(1.3rem, 2vw, 2rem);
   font-weight: 600;
   color: #5f6b2e;
   padding: 8px 10px;
-  border-bottom: 2px solid transparent;
-  transition: 0.2s ease;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #5f6b2e;
+
+  transform: scaleX(0);
+  transform-origin: center;   /* center grow (or use left) */
+  transition: transform 0.4s ease;  /* ⏳ slower animation */
+}
+.nav-link:hover::after,
+.nav-link.is-active::after {
+  transform: scaleX(1);
 }
 
 .nav-link:hover,
@@ -374,13 +390,15 @@ img {
 }
 
 .guest-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 26px;
+   display: flex;
+  flex-wrap: wrap;          /* allows multiple rows */
+  justify-content: center;  /* centers items in each row, including the last row */
+  gap: 26px; 
 }
 
 .guest-card {
   text-align: center;
+  flex: 0 1 190px;
 }
 
 .guest-avatar {
@@ -762,9 +780,9 @@ img {
   margin-bottom: 40px;
 }
 
-.guest-page-wrap .guest-grid {
+/* .guest-page-wrap .guest-grid {
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-}
+} */
 
 .category-block .section-title {
   margin-bottom: 20px;
@@ -821,13 +839,16 @@ img {
     width: 100%;
     display: none;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+text-align: center;
     border-top: 2px dashed rgba(114, 128, 59, 0.42);
     padding-top: 12px;
   }
 
+
   .nav-links.is-open {
     display: flex;
+  
   }
 
   .hero {
@@ -862,14 +883,20 @@ img {
     gap: 12px;
   }
 
-  .guest-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .guest-page-wrap .guest-grid {
+    display: flex;         /* force flex back */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+  }
+
+  .guest-card {
+    flex: 0 1 calc(50% - 13px);
   }
 
   .cta-row .btn {
     width: 100%;
   }
-
   .partner-logo {
     width: clamp(74px, 24vw, 100px);
   }
@@ -877,7 +904,6 @@ img {
   .hero-brand-logo {
     width: min(500px, 100%);
   }
-
   .sponsor-logos img {
     height: 54px;
     max-width: 116px;
@@ -895,7 +921,6 @@ img {
   .event-date {
     font-size: 0.72rem;
   }
-
   .event-category {
     font-size: 0.62rem;
     padding: 3px 6px;

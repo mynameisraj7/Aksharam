@@ -34,32 +34,32 @@ const siteData = {
  
 events: [
   { 
-    title: "Escape Room", 
-    date: "16 February 2026", 
-    category: "Tech Challenge", 
+    title: "Exhibition Inauguration", 
+    date: "April 3, 2026", 
+    category: "03:00 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "Solve puzzles, crack codes, and escape before time runs out."
+    description: "Opening of exhibition"
+  },
+  { 
+    title: "Film Screening: Anand Math", 
+    date: "April 3, 2026", 
+    category: "03:30 PM onwards", 
+    poster: "assets/website Teaser 1.png",
+    description: "Film screening"
   },
   { 
     title: "Kavi Sammelan", 
-    date: "17 February 2026", 
-    category: "Literature", 
+    date: "April 3, 2026", 
+    category: "06:00 PM – 07:00 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "An evening of poetry featuring renowned poets and performers."
+    description: "Poetry symposium"
   },
   { 
-    title: "Rang-e-Haryana", 
-    date: "18 February 2026", 
-    category: "Cultural", 
+    title: "Kahe Kabira (Bhajan Clubbing)", 
+    date: "April 3, 2026", 
+    category: "07:00 PM – 08:00 PM", 
     poster: "assets/website Teaser 1.png",
-    description: "A vibrant showcase of Haryana's traditional music and dance."
-  },
-  { 
-    title: "Cinema Chaupal", 
-    date: "18 February 2026", 
-    category: "Cinema", 
-    poster: "assets/website Teaser 1.png",
-    description: "Film screenings and discussions with creators and critics."
+    description: "Musical performance"
   },
   { 
     title: "Media Adda", 
