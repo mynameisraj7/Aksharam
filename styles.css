@@ -383,6 +383,7 @@ img {
   font-weight: 500;
   line-height: 1.35;
   color: var(--ink-soft);
+  text-align: justify;
 }
 
 .about-figure {
@@ -778,6 +779,7 @@ img {
   margin: 0;
   font-size: clamp(1rem, 1.1vw, 1.2rem);
   line-height: 1.45;
+  text-align: justify;
 }
 
 .contact-columns {
