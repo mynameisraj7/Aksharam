@@ -880,6 +880,9 @@ text-align: center;
     display: flex;
   
   }
+  .feature-card {
+  min-height: 150px;
+  }
 
   .hero {
     padding-top: 54px;
@@ -938,6 +941,10 @@ text-align: center;
 
   .guest-card {
     flex: 0 1 calc(50% - 13px);
+  }
+
+  .feature-card {
+  min-height: 130px;
   }
 
   .cta-row .btn {
