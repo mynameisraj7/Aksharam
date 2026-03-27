@@ -345,6 +345,32 @@ img {
   text-underline-offset: 5px;
 }
 
+.section-title-contact {
+  font-family: "Teko", sans-serif;
+  font-size: clamp(2rem, 1vw, 5rem);
+  line-height: 0.95;
+  text-align: center;
+  margin: 0 0 26px;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+  text-align: left;
+}
+
+.section-title-address {
+  font-family: "Teko", sans-serif;
+  font-size: clamp(2rem, 1vw, 5rem);
+  line-height: 0.95;
+  text-align: center;
+  margin: 24px 0 24px 0;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+  text-align: left;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1.4fr 0.9fr;
@@ -882,6 +908,21 @@ text-align: center;
     padding: 18px;
   }
 
+  .top-nav{
+    margin-top:8px ;
+  }
+   .top-nav-wrap {
+  top: 9px;;
+}
+
+  .top-nav-row {
+  padding: 5px 34px;
+}
+
+.nav-toggle {
+  padding: 6px 8px;
+}
+
   .event-card {
   flex: 0 0 calc(50% - 5px); /* ❌ no shrinking */
   border-width: 3px;
@@ -928,6 +969,9 @@ text-align: center;
   .event-grid {
     gap: 10px;
   }
+  .mini-logo {
+  width: min(240px, 90%);
+}
 }
 
 @media (max-width: 480px) {
@@ -942,4 +986,7 @@ text-align: center;
   .event-card-inner {
     aspect-ratio: 3/ 5.5;
   }
+  .mini-logo {
+  width: min(160px, 90%);
+}
 }

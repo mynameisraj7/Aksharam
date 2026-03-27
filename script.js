@@ -198,11 +198,11 @@ function renderFooter() {
         <p class="footer-note">
           Aksharam is a cultural festival celebrating literature, dialogue, and heritage through curated events, performances, and community participation.
         </p>
-        <h3>Address</h3>
+        <h3 class="section-title-address">Address</h3>
         <p class="footer-note">${siteData.contact.address.join("<br>")}</p>
       </section>
       <section>
-        <h2 class="section-title" style="margin-top:0; text-align:left; font-size:3rem;">Contact</h2>
+        <h2 class="section-title-contact">Contact</h2>
         <div class="contact-columns">
           <div class="contact-box">
             <h4>For accommodation query's</h4>
