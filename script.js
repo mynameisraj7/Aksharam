@@ -94,33 +94,33 @@ function renderAllEvents() {
 
   const filterWrap = byId("eventFilters");
   const searchInput = byId("eventSearch");
-  const categories = ["All", ...new Set(siteData.events.map((event) => event.category))];
-  let activeCategory = "All";
+  const dates = ["All", ...new Set(siteData.events.map((event) => event.date))];
+  let activeDate = "All";
   let searchText = "";
 
   function paintFilters() {
-    filterWrap.innerHTML = categories
-      .map(
-        (category) =>
-          `<button class="chip ${activeCategory === category ? "is-active" : ""}" data-filter="${category}" type="button">${category}</button>`
-      )
-      .join("");
+  filterWrap.innerHTML = dates
+    .map(
+      (date) =>
+        `<button class="chip ${activeDate === date ? "is-active" : ""}" data-filter="${date}" type="button">${date}</button>`
+    )
+    .join("");
 
-    filterWrap.querySelectorAll(".chip").forEach((chip) => {
-      chip.addEventListener("click", () => {
-        activeCategory = chip.dataset.filter;
-        paintFilters();
-        paintEvents();
-      });
+  filterWrap.querySelectorAll(".chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      activeDate = chip.dataset.filter;
+      paintFilters();
+      paintEvents();
     });
-  }
+  });
+}
 
   function paintEvents() {
     const filtered = siteData.events.filter((event) => {
-      const categoryPass = activeCategory === "All" || event.category === activeCategory;
+      const datePass = activeDate === "All" || event.date === activeDate;
       const text = `${event.title} ${event.category}`.toLowerCase();
       const searchPass = text.includes(searchText.toLowerCase());
-      return categoryPass && searchPass;
+      return datePass && searchPass;
     });
     eventGrid.innerHTML = filtered.map(createEventCard).join("");
     initReveal();
