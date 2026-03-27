@@ -99,7 +99,7 @@ img {
 
 .brand-main {
   font-family: "Khand", sans-serif;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
   font-weight: 700;
   color: #8f5c3a;
 }
@@ -130,7 +130,7 @@ img {
   padding: 0;
   display: flex;
   align-items: center;
-  gap: clamp(10px, 1.2vw, 22px);
+  gap: clamp(7px, 1.1vw, 22px);
 }
 
 .nav-link {
@@ -165,7 +165,7 @@ img {
 }
 
 .hero {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 38px;
   text-align: center;
 }
@@ -179,7 +179,7 @@ img {
 }
 
 .partner-logo {
-  width: clamp(40px, 7vw, 110px);
+  width: clamp(36px, 6.7vw, 110px);
   aspect-ratio: 1 / 1;
   object-fit: contain;
   border-radius: 18px;
@@ -216,15 +216,15 @@ img {
 }
 
 .hero-brand-logo {
-  width: min(300px, 80%);
+  width: min(240px, 80%);
   margin: 4px auto 0;
   border-radius: 18px;
 }
 
 .presents {
-  margin: 14px 0 10px;
+  margin: 7px 0 0px;
   font-family: "Khand", sans-serif;
-  font-size: clamp(1.6rem, 2vw, 2.4rem);
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
   color: #6f7c35;
 }
 
@@ -954,9 +954,6 @@ text-align: center;
     width: clamp(74px, 24vw, 100px);
   }
 
-  .hero-brand-logo {
-    width: min(390px, 80%);
-  }
   .sponsor-logos img {
     height: 54px;
     max-width: 116px;
@@ -978,6 +975,14 @@ text-align: center;
   }
   .mini-logo {
   width: min(240px, 90%);
+}
+.brand-main {
+  font-size: clamp(1.8rem, 2.4vw, 3rem);
+
+}
+
+.brand-sub {
+  font-size: 0.6rem;
 }
 }
 
