@@ -37,28 +37,28 @@ events: [
     title: "प्रदर्शनी उद्घाटन", 
     date: "April 3, 2026", 
     category: "03:00 PM", 
-    poster: "assets/website Teaser 1.png",
+    poster: "assets/posterevent.jpeg",
     description: "Opening of exhibition"
   },
   { 
     title: "फिल्म: आनंद मठ", 
     date: "April 3, 2026", 
     category: "03:30 PM onwards", 
-    poster: "assets/website Teaser 1.png",
+    poster: "assets/posterevent.jpeg",
     description: "Film screening"
   },
   { 
     title: "कवि सम्मेलन", 
     date: "April 3, 2026", 
     category: "06:00 PM – 07:00 PM", 
-    poster: "assets/website Teaser 1.png",
+    poster: "assets/posterevent.jpeg",
     description: "Poetry symposium"
   },
   { 
     title: "कहे कबीरा (भजन क्लबिंग)", 
     date: "April 3, 2026", 
     category: "07:00 PM – 08:00 PM", 
-    poster: "assets/website Teaser 1.png",
+    poster: "assets/posterevent.jpeg",
     description: "Musical performance"
   },
   { 
