@@ -300,7 +300,7 @@ events: [
         { name: "Tripti Singhal Somani", role: "Entrepreneur",image: "assets/Rectangle 39.png" },
         { name: "Nikhil Yadav", role: "Youth Leader Speaker",image: "assets/Rectangle 41.png" },
         { name: "Nidhin Valsan", role: "IPS Motivational Speaker",image: "assets/Rectangle 43.png" },
-        { name: "Nidhin Valsan", role: "IPS Motivational Speaker",image: "assets/Rectangle 45.png" },
+        // { name: "Nidhin Valsan", role: "IPS Motivational Speaker",image: "assets/Rectangle 45.png" },
         { name: "Pratyush Ranjan", role: "Digital Media Expert",image: "assets/Rectangle 47.png" },
         { name: "Anuj Khare", role: "Satirist Journalist",image: "assets/Rectangle 40.png" },
         { name: "Rahul Choudhary Neel", role: "Travel Writer",image: "assets/Rectangle 42.png" },
