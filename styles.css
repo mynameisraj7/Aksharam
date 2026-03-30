@@ -950,9 +950,9 @@ text-align: center;
   min-height: 130px;
   }
 
-  .cta-row .btn {
+  /* .cta-row .btn {
     width: 100%;
-  }
+  } */
   .partner-logo {
     width: clamp(74px, 24vw, 100px);
   }
